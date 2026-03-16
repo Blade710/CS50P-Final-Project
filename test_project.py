@@ -1,7 +1,7 @@
 import pytest
 from treys import Card
-import Poker_Advie_Bot
-from Poker_Advice_Bot import get_advice, card_to_str, parser
+import project
+from project import get_advice, card_to_str, parser
 
 
 def test_get_advice():
