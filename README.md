@@ -1,5 +1,5 @@
 # <ins>**Poker Advice Bot**</ins>
-#### Video Demo:  <URL HERE>
+#### Video Demo: https://youtu.be/BSxjdM-1GLo
 
 #### Description:
 This is a terminal-based Poker Texas Hold'em assistant built in Python. It calculates our equity i.e. the mathematical win probabilty against a specified number of opponents and compares it against our pot odds to provide real-time betting advice (CALL or FOLD) across all streets of the game(Preflop, Flop, Turn, and River).
