@@ -24,9 +24,9 @@ It has a continuos game loop and also logs the history of every hand played, the
 - **Plain Text Logging over CSV:** While I initially considered a CSV format for the logs, a standard spreadsheet format is difficult to read for a narrative game like poker. I opted for a custom plain-text formatting system. The program uses a global logs variable to store a readable summary of the hand phase-by-phase, and writes to the file once at the end of the round to optimize performance.
 
 #### Usage
-1. Install the required libraries by typing this line in your terminal pip install -r requirements.txt
-2. To run the program type python project.py in the terminal
-3. Enter your cards using standard notation (e.g., Ah, Kd for Ace of Hearts and King of Diamonds). Note that this uses 'T' for 10 and not '10', so a 10 of hearts would be '10h'
+1. Install the required libraries by typing this line in your terminal `pip install -r requirements.txt`
+2. To run the program type `python project.py` in the terminal
+3. Enter your cards using standard notation (e.g., `Ah`, `Kd` for Ace of Hearts and King of Diamonds). Note that this uses 'T' for 10 and not '10', so a 10 of hearts would be `Th`
 4. Follow the terminal prompts and receive impeccable advice at the end.
    
 #### TODO
